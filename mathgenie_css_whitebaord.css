@@ -1,0 +1,12 @@
+body {
+
+	padding:100px;
+	background-color:aqua;
+}
+
+body li {
+	margin-top:10px;
+	border:solid black;
+	background-color:white;
+}
+
