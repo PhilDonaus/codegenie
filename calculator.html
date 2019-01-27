@@ -1,1 +1,73 @@
-calculator.html
+<!doctype html>
+<html>
+	<head>
+		<script src="calculator.js" type="text/javascript"></script>
+		<style type="text/css">
+			.gameboard {
+				margin: auto;
+				height: 100vh;
+				width: 100vw;
+				background-color: tan;
+			}
+
+			.gamebox {
+				display: flex;
+				top:50%;
+				margin:auto;
+				border: gray solid 5px;
+				height: 500px;
+				width: 500px;
+				transform: translate(0, 25%);
+				flex-wrap:wrap;
+				background-color: gray;
+			}
+
+			.checkbox {
+				background-color: white;
+				color: black;
+				flex:1;
+				margin:auto;
+				margin-right:5px;
+				margin-left: 5px;
+				width:100%;
+				min-width:150px;
+				min-height:150px;
+				text-align: center;
+				font-size: 100px;
+			}
+		</style>
+	</head>
+	<body>
+		<div class="gameboard">
+			<button>Start Game</button>
+			<div class="gamebox">
+				<div class="checkbox"><
+				</div>
+				<div class="checkbox">
+					{values[2]}
+				</div>
+				<div class="checkbox">
+					{values[3]}
+				</div>
+				<div class="checkbox">
+					{values[4]}
+				</div>
+				<div class="checkbox">
+					{values[5]}
+				</div>
+				<div class="checkbox">
+					{values[6]}
+				</div>
+				<div class="checkbox">
+					{values[7]}
+				</div>
+				<div class="checkbox">
+					{values[8]}
+				</div>
+				<div class="checkbox">
+					{values[9]}
+				</div>
+			</div>
+		</div>
+	</body>
+</html>
